@@ -90,7 +90,6 @@ function modify_contact_methods($profile_fields) {
 	return $profile_fields;
 
 }
-add_filter('age_range');
 function user_agerange()
 {
 	$age_range = array
