@@ -89,7 +89,7 @@ function modify_contact_methods($profile_fields) {
 
 	return $profile_fields;
 
-}
+}/*
 function user_agerange()
 {
 	$age_range = array
@@ -99,4 +99,4 @@ function user_agerange()
 		array('age' => '>30', 'value' => '>30'),
 	);
 	return $age_range;
-}
+}*/
