@@ -18,11 +18,11 @@
 	
 START REMOVING or ADDING NEW ACTIONS BELOW THIS LINE */
 
-add filter('bizz_car_minage', 'custom_car_ninage')
+add filter('bizz_car_minage', 'custom_car_minage')
 function custom_car_minage() {
 	$minage = array(
-		array('name' => 'Minor<18', 'value' => '0'),
-		array('name' => 'Major>18', 'value' => '1'),
+		array('name' => '18 to 24', 'value' => '0'),
+		array('name' => '18-24', 'value' => '1'),
 		array('name' => 'Major>24', 'value' => '2'),
 		array('name' => 'Major>30', 'value' => '3'),
 		array('name' => 'Major>35', 'value' => '4'),
