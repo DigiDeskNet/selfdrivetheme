@@ -94,9 +94,9 @@ add_filter('user_contactmethods', 'modify_contact_methods')
 function  user_contactmethods($profile_fields)
 {
 	$age_range = array(
-		array('age' => '<21', 'value' => '<21'),
-		array('age' => '<40', 'value' => '<40'),
-		array('age' => '>60', 'value' => '>60'),
+		array('age' => '18-24', 'value' => '18-24'),
+		array('age' => '25-40', 'value' => '25-40'),
+		array('age' => '>40', 'value' => '>40'),
 	);
 	return $age_range;
 }
