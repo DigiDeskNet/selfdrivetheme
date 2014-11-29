@@ -96,7 +96,7 @@ function  user_contactmethods($profile_fields)
 	$age_range = array(
 		array('age' => '18-24', 'value' => '18-24'),
 		array('age' => '25-40', 'value' => '25-40'),
-		array('age' => '>30', 'value' => '>30'),
+		array('age' => '>30', 'value' => '>30')
 	);
 	return $age_range;
 }
