@@ -91,7 +91,7 @@ function modify_contact_methods($profile_fields) {
 
 }
 
-add_filter('bizz_car_agerange', 'custom_car_agerange');
+add_filter('bizz_cars_type', 'custom_car_agerange');
 function custom_car_agerange() {
 	$age_range = array(
 		array('age' => '18-24', 'value' => '18-24'),
