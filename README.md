@@ -1,6 +1,5 @@
-DDN SelfDrive Theme
-  ==============
-Vehicle Rental System for WordPress
+DDN SelfDrive WP Child Theme
+
 
 By Digital Designs Network Ltd.
 
