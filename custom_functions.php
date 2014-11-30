@@ -95,7 +95,11 @@ add_filter('bizz_cars_type', 'custom_car_agerange');
 function custom_car_agerange() {
 	$age_range = array(
 		array('age' => '18-24', 'value' => '18-24'),
+<<<<<<< HEAD
+		array('age' => '25-40', 'value' => '25-40'),
+=======
 		array('age' => '25-29', 'value' => '25-29'),
+>>>>>>> origin/master
 		array('age' => '>30', 'value' => '>30'),
 	);
 	return $age_range;
