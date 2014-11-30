@@ -100,3 +100,12 @@ function custom_car_agerange() {
 	);
 	return $age_range;
 }
+
+function bizz_cars_edit_columns($columns){
+	$columns['bizz-car-minage']= __('Minimum Age', 'bizzthemes');	
+
+	return $columns;
+
+}
+
+add_filter('manage_edit-bizz_cars_columns','bizz_cars_edit_columns');
